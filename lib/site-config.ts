@@ -9,6 +9,7 @@ export const siteConfig = {
   phoneDisplay: "0 (506) 596 06 27",
   whatsapp: "905065960627",
   phone2: "905439405577",
+  phone2Display: "0 (543) 940 55 77",
   address: "Samsun İlkadım Derecik Mahallesi Nakliyeciler Sitesi 2",
   workingHours: "Haftanın 7 günü 08:00 - 22:00 (Acil durumlar 7/24)",
 } as const

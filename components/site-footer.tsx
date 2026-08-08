@@ -38,7 +38,14 @@ export function SiteFooter() {
                 className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground"
               >
                 <Phone className="h-4 w-4" aria-hidden="true" />
-                Ara
+                {siteConfig.phoneDisplay}
+              </a>
+              <a
+                href={buildTelUrl(siteConfig.phone2)}
+                className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground"
+              >
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                {siteConfig.phone2Display}
               </a>
               <a
                 href={buildWhatsAppUrl("Merhaba, bilgi almak istiyorum.")}

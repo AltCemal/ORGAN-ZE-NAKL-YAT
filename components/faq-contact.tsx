@@ -66,6 +66,19 @@ export function FaqContact() {
             </a>
 
             <a
+              href={buildTelUrl(siteConfig.phone2)}
+              className="flex items-center gap-4 rounded-xl border border-border bg-card p-4 transition-colors hover:border-accent"
+            >
+              <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+                <Phone className="h-5 w-5" aria-hidden="true" />
+              </span>
+              <span>
+                <span className="block text-xs text-muted-foreground">Telefon 2</span>
+                <span className="font-heading font-bold text-foreground">{siteConfig.phone2Display}</span>
+              </span>
+            </a>
+
+            <a
               href={buildWhatsAppUrl("Merhaba, bilgi almak istiyorum.")}
               target="_blank"
               rel="noopener noreferrer"
