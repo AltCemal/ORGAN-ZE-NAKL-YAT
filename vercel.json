@@ -2,9 +2,6 @@
   "buildCommand": "pnpm build",
   "outputDirectory": ".next",
   "installCommand": "pnpm install --frozen-lockfile",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "@site_url"
-  },
   "functions": {
     "api/**": {
       "runtime": "nodejs20.x"
